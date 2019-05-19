@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.bigbackground{
+    display: flex;
+    background-color: #352961;
+    width: 70%;
+    height: 1000px;
+   position: relative;
+    border-radius: 0 0 35% 0;
+ 
+
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+ nav{
+  
+padding: 30px;
+display: flex;
+position: fixed;
+
+
+ }
+ .navleft{
+display: flex;
+list-style-type: none
+ }
+ .navleft li{
+     margin-left:40px;
+ }
+
+nav span{
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 0px !important;
+
+
+ }
+ .navleft a{
+ color: white;
+ text-decoration: none;
+ font-size: 17px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-weight: 100;
+ }
+
+ .navright{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 30px;
+    margin-right: 17%;
+
+ }
+
+ .navright a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+ }
+ .navright li{
+    margin-left:30px;
+    position: fixed;
+}
+.rightback{
+
+    width: 30%;
+}
+.contact{
+    background-color: #dc3545!important;
+    padding: 10px;
+    border-radius: 3px;
+    color: white !important;
+ 
+
+}
+.welcome{
+    padding-top: 200px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.start{
+    width: 55%;
+    
+}
+.start p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    margin: 50px 0;
+
+}
+.start a{
+    color: white;
+    padding: 18px 50px;
+    border: 2px solid white;
+    margin-top: 5%;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 900;
+    transition: all 0.3s linear;
+
+
+}
+.start a:hover{
+    background-color: white;
+    color: black;
+}
+
+.start h1{
+    color: white;
+    font-size: 42px;
+    
+}
+
+.welcome .img{
+    width: 540px;
+    height: 700px;
+    position: absolute;
+    right: -250px;
+    top: 150px;
+}
+.welcome .img img{
+    display: block;
+    width: 100%;
+    border-radius: 35% 0 0 0;
+    position: absolute;
+    
+}
+.welcome .img .button{
+    display: flex;
+   
+ background-color: #dc3545;
+    position: absolute;
+    bottom: 96px;
+    left: 223px;
+    border-radius: 5px 5px 5px 5px;
+}
+.welcome .img .button a{
+text-decoration: none;
+font-family: 'icomoon' !important;
+color: white;
+overflow: hidden;
+border-radius: 5px ;
+background-color: #dc3545;
+padding: 18px 27px;
+display: flex;
+z-index: 1;
+transition: 0.3s all ;
+}
+
+.welcome .img .button a:hover {
+    box-shadow: 2px 2px 4px #000000;
+    background-color: transparent;
+}
+ 
+
+#container{
+    padding: 200px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+}
+.home .homeleft{
+    max-width: 42%;
+}
+.home .homeleft h1{
+    font-size: 43px;
+    letter-spacing: -3px;
+    color: #352961;
+    font-weight: 900;
+    max-width: 450px;
+    margin-bottom: 28px;
+    font-family: "Oswald", sans-serif;
+}
+
+.home .homeleft p{
+    line-height: 1.7;
+    color: gray;
+    font-weight: 300;
+    font-size: 19px;
+    font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.homeright .img{
+    width: 540px;
+    height: 578px;
+    position: relative;
+}
+.homeright .img img{
+    max-width: 100%;
+}
+.homeleft span{
+    display: block;
+    margin: 30px 0;
+    line-height: 1.7;
+    color: gray;
+    font-weight: 300;
+    position: relative;
+    font-size: 19px;
+    font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+
+}
+
+.homeleft span i
+{
+    color: green;
+    margin-right: 10px;
+    font-weight: 600;
+}
+.homeright .img .imgperfect{
+    background-color: #352961;
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    position: absolute;
+    right: -90px;
+    bottom: -116px;
+}
+.homeright .img .icon{
+    transform: rotate(300deg);
+    color: white;
+}
+.homeright .img .imgperfect h1{
+    margin-top: 25px;
+    font-family: "Oswald", sans-serif;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+
+}
+
+.imgperfect p{
+    color: rgba(255, 255, 255, 0.55);
+    margin: 28px 0;
+    line-height: 1.7;
+    font-size: 18px;
+    font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.imgperfect #visit{
+color:white;
+margin-right: 5px;
+color: rgba(255, 255, 255, 0.55);
+font-size: 20px;
+font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.imgperfect #visit a{
+    color: #dc3545;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: 300;
+}
+.imgperfect #visit a:hover{
+    color: #a71d2a;
+    
+}
+
+.reyting{
+    margin-top: 100px;
+display: flex;
+justify-content: space-between;
+
+}
+
+.creativity  .fas{
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+    margin-right: 15px;
+    margin-top: 0;
+}
+.creativity .number{
+    font-size: 60px;
+
+}
+.creativity span{  
+      text-align: center;
+    display: block;
+    color:rgba(139, 139, 139, 1) ;
+}
+#projects .portfolio{
+display: flex;
+justify-content: space-between;
+}
+
+
+#projects .portfolio .img{
+    width: 25%;
+    position: relative;
+}
+
+#projects .portfolio .img img{
+    max-width: 100%;
+    transition: all 0.2s linear;
+    opacity: 1;
+    
+}
+#projects .portfolio .img .background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #424370;
+    opacity: 1;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+    transition: all 0.2s linear;
+   
+ 
+}
+.img .background h1{
+    padding-top: 40%;
+    color: white;
+    max-width: 70%;
+    margin: 0 auto;
+}
+.background span{
+    color:rgba(139, 139, 139, 1) ;
+   
+}
+
+#projects .portfolio .img:hover .background {
+    transform: scale(1.1);
+opacity: 1;
+
+    display: inline;
+    
+    
+
+    
+}
+#projects .portfolio .img:hover img{
+    transform: scale(1.1);
+     opacity: 0.1;
+}
+
+
+
